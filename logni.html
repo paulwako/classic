@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .main-section {
+        width: 500px;
+        display: flex;
+        margin: auto;
+        box-sizing: border-box;
+        background-image: url("closet.jpg");
+        background-size: cover;
+        border-radius: 10px;
+      }
+      .level1 {
+        width: 50%;
+        height: 350px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 0;
+      }
+
+      .level3 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        right: -49%;
+        top: 24%;
+        align-content: center;
+        justify-content: center;
+      }
+      input,
+      button {
+        display: block;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 15px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+      }
+      button {
+        font-weight: bold;
+        background-color: blue;
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: cyan;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sing In</h1>
+    <section class="main-section">
+      <section class="level1">
+        <section class="level3">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Persword" />
+          <button>Login</button>
+          <p>
+            <a href="signup.html"><i>Don't have an account</i></a>
+          </p>
+        </section>
+      </section>
+      <section class="level1"></section>
+    </section>
+  </body>
+</html>
